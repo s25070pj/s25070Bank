@@ -13,13 +13,9 @@ public class Transfer {
         this.transferAmount = transferAmount;
     }
 
-    public String getStatus() {
-        return status;
-    }
 
-    public void setStatus(String status) {
-        this.status = status;
-    }
+
+
 
     public int getTransferAmount() {
         return transferAmount;

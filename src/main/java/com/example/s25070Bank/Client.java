@@ -3,11 +3,15 @@ package com.example.s25070Bank;
 public class Client {
     private String id;
 
+
     private int saldo;
 
     public Client(String id, int saldo){
         this.id = id;
         this.saldo = saldo;
+    }
+    public Client(){
+
     }
 
     public int getSaldo() {

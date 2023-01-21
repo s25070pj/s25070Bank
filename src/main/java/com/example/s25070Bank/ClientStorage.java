@@ -11,10 +11,7 @@ public class ClientStorage {
 
 
     public ClientStorage(){
-        clients.add(new Client("1", 500));
-        clients.add(new Client("2", 1000));
-        clients.add(new Client("3", 100));
-        clients.add(new Client("4", 200));
+
     }
 
     public List<Client> getClients(){
